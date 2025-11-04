@@ -5,6 +5,11 @@ import pandas as pd
 import joblib
 import numpy as np
 import time
+from pathlib import Path
+import os
+APP_DIR = Path(__file__).resolve().parent
+os.chdir(APP_DIR)  # <- force working directory to the folder that has app.py + your model files
+
 
 # Page config
 st.set_page_config(
