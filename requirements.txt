@@ -16,9 +16,4 @@ seaborn==0.13.2
 # Model Persistence
 joblib==1.4.2
 
-# App Deployment
-streamlit==1.38.0
 
-# Optional: For notebooks (local dev only)
-# jupyter
-# notebook
